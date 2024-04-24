@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/tradeDesign.scss';
 
 export const TradeDesign = () => {

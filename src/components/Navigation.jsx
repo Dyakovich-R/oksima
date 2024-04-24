@@ -1,34 +1,33 @@
-import React from 'react';
 import '../styles/navigation.scss';
 
 export const Navigation = () => {
   return (
-    <section class="navigation">
-      <div class="navigation__container">
-        <div class="navigation__group">
-          <div class="navigation__group--logo"></div>
+    <section className="navigation">
+      <div className="navigation__container">
+        <div className="navigation__group">
+          <div className="navigation__group--logo"></div>
 
-          <nav class="navigation__nav">
-            <ul class="navigation__nav--list">
-              <li class="navigation__nav--item">About us</li>
-              <li class="navigation__nav--item">Features</li>
-              <li class="navigation__nav--item">Blog</li>
-              <li class="navigation__nav--item">Contact</li>
+          <nav className="navigation__nav">
+            <ul className="navigation__nav--list">
+              <li className="navigation__nav--item">About us</li>
+              <li className="navigation__nav--item">Features</li>
+              <li className="navigation__nav--item">Blog</li>
+              <li className="navigation__nav--item">Contact</li>
             </ul>
-            <button class="navigation__nav--button">Download App</button>
+            <button className="navigation__nav--button">Download App</button>
           </nav>
         </div>
 
-        <div class="navigation__content">
-          <div class="navigation__content--group">
-            <h1 class="navigation__content--title">
+        <div className="navigation__content">
+          <div className="navigation__content--group">
+            <h1 className="navigation__content--title">
               Introducing <b>Abstract</b> <br /> App landing page
             </h1>
-            <h3 class="navigation__content--text">
+            <h3 className="navigation__content--text">
               A perfect landing page to showcase your new App.
             </h3>
           </div>
-          <div class="navigation__content--image"></div>
+          <div className="navigation__content--image"></div>
         </div>
       </div>
 
